@@ -143,7 +143,6 @@ function App() {
             collapsible: false, // default false
             autoShow: true, // default false
             isOverlapping: false, // The height of the body is reduced by the height of the banner.
-            isCapacitor: true, // only for capacitors: if isOverlapping: false
         //  padding: 10 // Optional: only isOverlapping: false, Extra 20px distance between WebView and Banner
         //  loadInterval: 5 // Opsional: Anti-Flicker/Spam, Default interval 5 seconds, disable 0
         });
@@ -158,7 +157,6 @@ function App() {
             collapsible: true, // default false
             autoShow: true, // default false
             isOverlapping: false, // The height of the body is reduced by the height of the banner.
-            isCapacitor: true, // only for capacitors: if isOverlapping: false
         //  padding: 10 // Optional: only isOverlapping: false, Extra 20px distance between WebView and Banner
         //  loadInterval: 5 // Opsional: Anti-Flicker/Spam, Default interval 5 seconds, disable 0
         });

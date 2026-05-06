@@ -25,6 +25,8 @@ exports.loadBannerAd = function (options, success, error) {
     if (!options) {
         options = {};
     }
+    var isCapacitorEnvironment = typeof window.Capacitor !== 'undefined';
+    options.isCapacitor = isCapacitorEnvironment;
 
     // ==========================================
     // PARAMETER NORMALIZATION: COLLAPSIBLE (Legacy Support)

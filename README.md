@@ -293,7 +293,6 @@ const bannerConfig = {
    collapsible: false, // default false
    autoShow: true, // default false
    isOverlapping: false, // The height of the body is reduced by the height of the banner.
-// isCapacitor: false, // Opsional: only for capacitors: if isOverlapping: false
 // padding: 0, // Optional: only isOverlapping: false, Extra 20px distance between WebView and Banner
 // loadInterval: 5 // Opsional: Anti-Flicker/Spam, Default interval 5 seconds, disable 0
 }
